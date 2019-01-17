@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Name for the application [CHAR LIMIT=12] -->
+    <string name="app_name">Bath Toys Inventory</string>
+
+    <!-- Label for overflow menu option that inserts fake bath toy data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all bath toy data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete all bath toys</string>
+
+    <!-- Title text for the empty view that prompts the user to add a bath toy [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">Get started by adding a bath toy</string>
+
+    <!-- Title for the activity to add a new bath toy [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_bath_toy">Add a bath toy</string>
+
+    <!-- Title for the activity to edit an existing bath toy [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_bath_toy">Edit bath toy</string>
+
+    <!-- Label for editor menu option to save bath toy and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current bath toy [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Toast message in editor when new bath toy has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_bath_toy_successful">Bath toy saved</string>
+
+    <!-- Toast message in editor when new bath toy has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_bath_toy_failed">Error with saving bath toy</string>
+
+    <!-- Toast message in editor when current bath toy was successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_bath_toy_successful">Bath toy updated</string>
+
+    <!-- Toast message in editor when current bath toy has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_bath_toy_failed">Error with updating bath toy</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current bath toy [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor when current bath toy was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_bath_toy_successful">Bath toy deleted</string>
+
+    <!-- Toast message in editor when current bath toy has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_bath_toy_failed">Error with deleting bath toy</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current bath toy [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this bath toy?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current bath toy [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current bath toy [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_overview">Overview</string>
+
+    <!-- Label for measurement information in the editor [CHAR LIMIT=30] -->
+    <string name="category_measurement">Measurement</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_bath_toy_name">Name</string>
+
+    <!-- Text hint for quantity field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_bath_toy_quantity">Quantity</string>
+
+    <!-- Unit for quantity of the bath toy [CHAR LIMIT=30] -->
+    <string name="unit_bath_toy_quantity">Piece(s)</string>
+
+    <!-- Text hint for price field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_bath_toy_price">Price</string>
+
+    <!-- Unit for price of the bath toy ($) [CHAR LIMIT=5] -->
+    <string name="unit_bath_toy_price">$</string>
+
+    <!-- Button for sell bath toy -->
+    <string name="sell">Sell</string>
+
+    <!-- Subject for email -->
+    <string name="email_subject">Order Request</string>
+
+    <!-- Message of email -->
+    <string name="email_message">We are requesting a shipment of the following item:</string>
+    <string name="quantity_negative">Quantity cannot go below zero</string>
+
+</resources>
